@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+    color: #4361EE;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25%;
+    border: 1px solid;
+}
+
+.logo {
+    display: block;
+    padding-top: 50%;
+}
+
+.list1 {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.list1 li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.list2 {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.list2 li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart-div {
+    display: flex;
+}
+
+.cart-link {
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    height: 20px;
+    width: 20px;
+    padding-top: 80%;
+}
+
+.list1 li a:hover {
+    animation: ease-in 3s 3s;
+}
